@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Delirio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre no-margin centrar-texto">Delirio</h1>
+          </a>
+          <nav class="navegacion">
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">Productos</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+          </nav>
+        </div>
+      </div>
+      <div class="header__texto">
+        <h2 class="no-margin">Delirio pasteleria</h2>
+        <p class="no-margin">
+          Vive la vida dulce con nostros, la felicidad te espera.
+        </p>
+      </div>
+    </header>
+
+    <section class="contenedor">
+      <h2>¡Estos son los sabores que tenemos para ti!</h2>
+
+      <div class="contenedor__galeria">
+        <div class="galeria">
+          <img src="/img/chocolate.webp" alt="pastel de chocolate" />
+          <p>Chocolate</p>
+        </div>
+        <div class="galeria">
+          <img src="/img/blueberry.webp" alt="pastel de blueberry" />
+            <p>Blueberry</p>
+        </div>
+        <div class="galeria">
+          <img src="/img/frutas.webp" alt="pastel de frutas" />
+            <p>Frutas</p>
+        </div>
+        <div class="galeria">
+          <img src="/img/manzana.webp" alt="pastel de manzana" />
+            <p>Manzana</p>
+        </div>
+      </div>
+      <h2>Estos son algunos adornos y/o complementos con los que contamos</h2>
+      <div class="contenedor__galeria">
+        <div class="galeria">
+            <img src="/img/Letras.webp" alt="Letras">
+            <p>Personaliza tu pastel</p>
+        </div>
+        <div class="galeria">
+            <img src="/img//lunetas.webp" alt="Lunetas">
+            <p>Puedes agregar lunetas de chocolate</p>
+        </div>
+        <div class="galeria">
+            <img src="/img/Nueces.webp" alt="Nueces">
+            <p>Si quieres nueces, tienes nueces</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contenedor">
+        <form action="" class="formulario">
+            <h3>Arma tu pastel! :D</h3>
+            <p>Puedes combinar adornos y sabores a tu gusto :D</p>
+            <label>Chocolate</label>
+            <input type="radio" value="chocolate">
+            <label>Blueberry</label>
+            <input type="radio" value="Blueberry">
+            <label>Frutas</label>
+            <input type="radio" value="Frutas">
+            <label>Manzana</label>
+            <input type="radio" name="Manzana" id="Manzana" value="Manzana">
+    
+            <p>Elije tus adornos :D</p>
+            <label>Letras</label>
+            <input type="radio" value="letras">
+            <label>Lunetas</label>
+            <input type="radio" name="lunetas" id="lunetas">
+            <label>Nueces</label>
+            <input type="radio" name="Nueces" id="Nueces">
+            
+            <h2 class="info__cliente">Indicanos con quien dirigirnos en caso de requerir más informacion :D</h2>
+            <label class="info__cliente">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label class="info__cliente" for="numero">Numero telefonico</label>
+            <input type="tel" name="tel" id="tel">
+            <label class="info__cliente">Correo electronico</label>
+            <input type="email">
+            <label class="info__cliente">Danos una descripción general del pastel y la seleccion de sabores y complementos</label>
+            <textarea name="info" id="info" cols="30" rows="10"></textarea>
+            <p> </p>
+            <input type="submit" value="enviar">
+         </form>
+        
+    </section>
+  </body>
+</html>
