@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 0;
+    background-color: #e2e2e2;
+}
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+.contenedor h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.centrar-texto {
+    text-align: center;
+}
+
+.header {
+    background-image: url(../img/image.webp);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header__texto {
+   text-align: center;
+   color: rgb(255, 255, 255);
+   margin-top: 5rem;
+   font-size: 2rem;
+   font-family: 'Bad Script', cursive;
+}
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
+}
+.barra {
+    padding-top: 4rem;
+    font-family: 'Bad Script', cursive;
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+/* Galaria */
+.contenedor__galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.galeria img{
+    max-width: 400px;
+    height: 300px;
+}
+.galeria p{
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Formulario */
+.formulario{
+    text-align: center;
+   
+}
+.info__cliente{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.btn-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table{
+    border-spacing: 2rem;
+}
+.contenedor__sabores{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   
+}
